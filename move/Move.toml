@@ -1,0 +1,16 @@
+[package]
+name = "dacatirs"
+version = "1.0.0"
+authors = []
+
+[addresses]
+dacatirs_addr = 'b65e858b1f82be735fc81db97248b486119993b6d96d012b688c2a70ca88f4a0'
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
